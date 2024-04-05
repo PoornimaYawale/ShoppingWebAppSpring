@@ -34,7 +34,7 @@ public class OrdersService {
 
 	public Orders placeOrder(int userId, int quantity, String couponCode) {
 
-		Product product = productRepository.findById(2)
+		Product product = productRepository.findById(1)
 				.orElseThrow(() -> new EntityNotFoundException("Product not found"));
 
 		// Check if quantity is valid
