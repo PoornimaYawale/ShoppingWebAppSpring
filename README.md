@@ -35,3 +35,5 @@ Note : POST api's of adding product and coupon write the name & value of members
            "availableQuantity":100,
            "price":100.0
         }
+
+Assumption : It is assumed that application has only one product with productId=1 an one user with userId=1  
